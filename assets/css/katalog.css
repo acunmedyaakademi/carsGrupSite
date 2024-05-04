@@ -17,6 +17,16 @@ body{
     justify-content: space-between;
     padding: 30px;
     margin-left: 100px;
+    position: relative;
+    animation: tazele 2s ease-in-out;
+}
+@keyframes tazele {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .navbar-items{
     display: flex;
