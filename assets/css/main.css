@@ -20,6 +20,8 @@ body{
     justify-content: space-between;
     padding: 30px;
     margin-left: 100px;
+    position: relative;
+    animation: soldanKaydirNav calc(0.6 * var(--i)) ease-in-out forwards;
 }
 .navbar-items{
     display: flex;
@@ -52,6 +54,14 @@ body{
     }
     100%{
         right: 0;
+    }
+}
+@keyframes soldanKaydirNav{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
     }
 }
 .text-area{
