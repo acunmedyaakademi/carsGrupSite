@@ -28,3 +28,50 @@ body{
     color: black;
     font-size: 20px;
 }
+.icerik-kutu{
+    position: relative;
+    top: 100px;
+    left: 130px;
+    animation: soldanKaydir 1s ease-in-out;
+}
+@keyframes soldanKaydir{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 130px;
+    }
+}
+@keyframes sagdanKaydir{
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 0;
+    }
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & > p{
+        text-align: left;
+
+    }
+}
+.header{
+    font-size: 50px;
+}
+.read{
+    color: blue;
+}
+.car-box{
+    position: absolute;
+    left: 800px;
+}
+.car-box img{
+    animation: sagdanKaydir 1s ease-in-out;
+    position: relative;
+    width: 600px;
+    object-fit: cover;
+}
