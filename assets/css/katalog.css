@@ -40,19 +40,34 @@ body{
     font-size: 20px;
 }
 
-.cards{
+.card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    img{
-        width: 25%;
-    }
-    h1{
-        font-size: 22px;
-    }
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.cards img {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.cards h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.cards .year, .cards .detail {
+    font-size: 16px;
+    color: #666;
 }
