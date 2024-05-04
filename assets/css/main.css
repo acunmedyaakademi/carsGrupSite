@@ -5,11 +5,11 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
+    overflow-x: clip;
 }
 .container{
     margin-inline: auto;
     max-width: 1440px;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,10 +84,8 @@ body{
     position: relative;
     left: 800px;
     top: -80px;
-    /* background-color: blue;
-    border-radius: 800px;
-    width: 600px;
-    height: 300px; */
+    /* background-color: blue; */
+    /* border-radius: 800px; */
 }
 .car-box img{
     animation: sagdanKaydir 1s ease-in-out;
