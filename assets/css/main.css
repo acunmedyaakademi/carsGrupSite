@@ -21,7 +21,7 @@ body{
     padding: 30px;
     margin-left: 100px;
     position: relative;
-    animation: soldanKaydirNav calc(0.6 * var(--i)) ease-in-out forwards;
+    animation: soldanKaydirNav calc(0.6s * var(--i)) ease-in-out forwards;
 }
 .navbar-items{
     display: flex;
