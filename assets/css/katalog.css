@@ -1,0 +1,25 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    margin-inline: auto;
+    max-width: 1440px;
+}
+.navbar-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 100px;
+}
+.navbar-items{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 100px;
+}
+.navbar-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
