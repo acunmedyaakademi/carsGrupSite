@@ -1,21 +1,42 @@
 [
       {
+        "id":"1",
         "Araba": "Renault Fluence",
         "Model": "2015 Fluence" ,
         "Detay":"",
         "Sahibi":"Serhat Koç",
-        "img":""
+        "images":""
       },
       {
-        "Araba": "Tufan Korkmazel",
-        "Model": 2015 ,
+        "id":"2",
+        "Araba": "Lamborghini Aventador",
+        "Model": 2016 ,
         "Detay":"",
-        "Sahibi":""
+        "Sahibi":"Burak Öz",
+        "images":"assets/img/GALLARDpng.png"
       },
       {
-        "Araba": "Tufan Korkmazel",
-        "Model": 2015 ,
+        "id":"3",
+        "Araba": "Audi RS6 Avant",
+        "Model": 2020 ,
         "Detay":"",
-        "Sahibi":""
+        "Sahibi":"Sefer Alp Kurt",
+        "images":""
+      },
+      {
+        "id":"4",
+        "Araba": "Seat Leon",
+        "Model": "2017 " ,
+        "Detay":"",
+        "Sahibi":"Hakan Tekin",
+        "images":""
+      },
+      {
+        "id":"5",
+        "Araba": "BMW M4 Performance",
+        "Model": "2020 M4" ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":""
       }
     ]
