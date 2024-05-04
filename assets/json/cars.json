@@ -2,7 +2,7 @@
       {
         "id":"1",
         "Araba": "Renault Fluence",
-        "Model": "2015" ,
+        "Model": 2015 ,
         "Detay":"",
         "Sahibi":"Serhat Koç",
         "images":"assets/img/serhatfluenchPNG.png"
@@ -26,7 +26,7 @@
       {
         "id":"4",
         "Araba": "Seat Leon",
-        "Model": "2017 " ,
+        "Model": 2017 ,
         "Detay":"",
         "Sahibi":"Hakan Tekin",
         "images":"assets/img/seatleonPNG.png"
@@ -34,7 +34,7 @@
       {
         "id":"5",
         "Araba": "BMW M4 Performance",
-        "Model": "2020 M4" ,
+        "Model": 2020 ,
         "Detay":"",
         "Sahibi":"Ömer Esin",
         "images":"assets/img/BMWpng.png"
@@ -42,9 +42,57 @@
       {
         "id":"6",
         "Araba": "Volkswagen vw Scirocco",
-        "Model": "2016" ,
+        "Model": 2016 ,
         "Detay":"",
         "Sahibi":"Mert Öztürk",
         "images":"assets/img/scrikkoPNG.png"
+      },
+      {
+        "id":"7",
+        "Araba": "Nissan GTR R34",
+        "Model": 2015 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/NissangtrPNG.png"
+      },
+      {
+        "id":"8",
+        "Araba": "Audi R8 ",
+        "Model": 2020 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/AudiR8PNG.png"
+      },
+      {
+        "id":"9",
+        "Araba": "BMW M4 Performance",
+        "Model": 2020 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/BMWpng.png"
+      },
+      {
+        "id":"10",
+        "Araba": "BMW M4 Performance",
+        "Model": 2020 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/BMWpng.png"
+      },
+      {
+        "id":"11",
+        "Araba": "BMW M4 Performance",
+        "Model": 2020 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/BMWpng.png"
+      },
+      {
+        "id":"12",
+        "Araba": "BMW M4 Performance",
+        "Model": 2020 ,
+        "Detay":"",
+        "Sahibi":"Ömer Esin",
+        "images":"assets/img/BMWpng.png"
       }
     ]

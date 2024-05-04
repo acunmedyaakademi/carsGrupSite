@@ -18,5 +18,4 @@ async function ekranaYaz() {
         </div>`
 }}
 
-urunleriGetir();
 ekranaYaz();

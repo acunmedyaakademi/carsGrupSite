@@ -1,82 +1,82 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9; /* Arka plan rengi eklendi */
 }
-.container{
+
+.container {
     margin-inline: auto;
-    max-width: 1440px;
+    max-width: 1200px; /* Max genişlik ayarlandı */
+    padding: 20px; /* Container padding eklendi */
 }
-.navbar-desktop{
+
+.navbar-desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-    margin-left: 100px;
-    position: relative;
-    animation: tazele 2s ease-in-out;
+    padding: 20px; /* Padding ayarlandı */
+    background-color: #fff; /* Arka plan rengi eklendi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Gölge eklendi */
 }
-@keyframes tazele {
-    0%{
-        opacity: 0.1;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-.navbar-items{
+
+.navbar-items {
     display: flex;
     list-style-type: none;
     gap: 30px;
-    margin-right: 100px;
 }
-.navbar-items li a{
+
+.navbar-items li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: #333; /* Yazı rengi güncellendi */
+    font-size: 18px; /* Font boyutu azaltıldı */
+    transition: color 0.3s ease; /* Düğme geçiş efekti eklendi */
+}
+
+.navbar-items li a:hover {
+    color: #666; /* Üzerine gelindiğinde yazı rengi değişimi eklendi */
 }
 
 .card {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Kart sıralaması düzenlendi */
     gap: 20px;
+    margin-top: 30px; /* Kartların üstünde boşluk eklendi */
 }
 
 .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #ddd;
+    background-color: #fff; /* Kart arka plan rengi eklendi */
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px; /* Köşe yuvarlama eklendi */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    animation: soldanKaydir 2s ease-in-out forwards;
+    transition: transform 0.3s ease; /* Kart üzerine gelindiğinde hareket efekti eklendi */
 }
-@keyframes soldanKaydir{
-    0%{
-        bottom: -2000px;
-    }
-    100%{
-        bottom: 0;
-    }
+
+.cards:hover {
+    transform: translateY(-5px); /* Kart üzerine gelindiğinde yukarı doğru kayma efekti eklendi */
 }
+
 .cards img {
-    width: 50%;
-    border-radius: 8px;
+    width: 100%; /* Resim genişliği ayarlandı */
+    border-radius: 10px; /* Köşe yuvarlama eklendi */
     margin-bottom: 15px;
 }
 
 .cards h1 {
-    font-size: 22px;
+    font-size: 24px; /* Başlık font boyutu artırıldı */
     margin-bottom: 10px;
+    color: #333; /* Başlık rengi güncellendi */
 }
 
-.cards .year, .cards .detail {
+.cards .year,
+.cards .detail {
     font-size: 16px;
     color: #666;
 }
