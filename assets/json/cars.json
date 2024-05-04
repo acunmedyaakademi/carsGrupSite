@@ -5,7 +5,7 @@
         "Model": "2015 Fluence" ,
         "Detay":"",
         "Sahibi":"Serhat Koç",
-        "images":""
+        "images":"assets/img/serhatfluenchPNG.png"
       },
       {
         "id":"2",
@@ -21,7 +21,7 @@
         "Model": 2020 ,
         "Detay":"",
         "Sahibi":"Sefer Alp Kurt",
-        "images":""
+        "images":"assets/img/RS6png.png"
       },
       {
         "id":"4",
@@ -29,7 +29,7 @@
         "Model": "2017 " ,
         "Detay":"",
         "Sahibi":"Hakan Tekin",
-        "images":""
+        "images":"assets/img/seatleonPNG.png"
       },
       {
         "id":"5",
@@ -37,7 +37,7 @@
         "Model": "2020 M4" ,
         "Detay":"",
         "Sahibi":"Ömer Esin",
-        "images":""
+        "images":"assets/img/BMWpng.png"
       },
       {
         "id":"6",
@@ -45,6 +45,6 @@
         "Model": "2016" ,
         "Detay":"",
         "Sahibi":"Mert Öztürk",
-        "images":""
+        "images":"assets/img/scrikkoPNG.png"
       }
     ]
