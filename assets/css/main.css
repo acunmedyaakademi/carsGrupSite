@@ -9,6 +9,10 @@ body{
 .container{
     margin-inline: auto;
     max-width: 1440px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .navbar-desktop{
     display: flex;
@@ -54,9 +58,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: flex-start;
     & > p{
         text-align: left;
-
+        margin-top: 10px;
     }
 }
 .header{
@@ -66,12 +71,28 @@ body{
     color: blue;
 }
 .car-box{
-    position: absolute;
+    position: relative;
     left: 800px;
+    top: -80px;
+    /* background-color: blue;
+    border-radius: 800px;
+    width: 600px;
+    height: 300px; */
 }
 .car-box img{
     animation: sagdanKaydir 1s ease-in-out;
     position: relative;
     width: 600px;
     object-fit: cover;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+
+
 }
