@@ -62,37 +62,5 @@
         "Detay":"",
         "Sahibi":"Ömer Esin",
         "images":"assets/img/AudiR8PNG.png"
-      },
-      {
-        "id":"9",
-        "Araba": "BMW M4 Performance",
-        "Model": 2020 ,
-        "Detay":"",
-        "Sahibi":"Ömer Esin",
-        "images":"assets/img/BMWpng.png"
-      },
-      {
-        "id":"10",
-        "Araba": "BMW M4 Performance",
-        "Model": 2020 ,
-        "Detay":"",
-        "Sahibi":"Ömer Esin",
-        "images":"assets/img/BMWpng.png"
-      },
-      {
-        "id":"11",
-        "Araba": "BMW M4 Performance",
-        "Model": 2020 ,
-        "Detay":"",
-        "Sahibi":"Ömer Esin",
-        "images":"assets/img/BMWpng.png"
-      },
-      {
-        "id":"12",
-        "Araba": "BMW M4 Performance",
-        "Model": 2020 ,
-        "Detay":"",
-        "Sahibi":"Ömer Esin",
-        "images":"assets/img/BMWpng.png"
       }
     ]
